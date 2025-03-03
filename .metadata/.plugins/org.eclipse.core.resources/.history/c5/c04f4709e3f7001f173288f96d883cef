@@ -1,5 +1,0 @@
-package br.com.nlw.events.dto;
-
-public record SubscriptioRankingItem(Long amount, Integer userId, String name) {
-
-}

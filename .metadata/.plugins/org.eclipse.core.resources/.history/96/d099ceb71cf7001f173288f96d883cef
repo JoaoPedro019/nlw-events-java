@@ -1,5 +1,0 @@
-package br.com.nlw.events.exception;
-
-public class EventNotFoundExcption {
-
-}
