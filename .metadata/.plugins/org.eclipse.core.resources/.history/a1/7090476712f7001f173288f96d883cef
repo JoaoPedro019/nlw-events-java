@@ -1,0 +1,18 @@
+package br.com.nlw.events.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Table
+@Entity(name="tbl_user")
+public class User {
+	private Integer id;
+	private String name;
+	private String email;
+}
